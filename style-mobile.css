@@ -1,0 +1,46 @@
+/*-------- css3 for mobile -----*/
+@media screen and (max-width: 480px) {
+  .body {
+    width: 90%;
+    font-size: 95%;
+    /*-------- mainheader for mobile -----*/
+  }
+
+  .body nav {
+    height: 160 px;
+  }
+
+  .body ul {
+    width: 100%;
+    padding: 0;
+  }
+
+  .body ul li {
+    display: inline;
+  }
+  .body a:link,
+  .body a:visited {
+    display: block;
+  }
+  .body a:hover,
+  .body a:active {
+    color: white;
+    background-color: #f30707;
+    text-shadow: none;
+  }
+  .mainContent {
+    width: 100%;
+  }
+  .thesidebar {
+    width: 94%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .body {
+    width: 90%;
+    font-size: 95%;
+  }
+  .body nav {
+    font-size: 80%;
+  }
+}
